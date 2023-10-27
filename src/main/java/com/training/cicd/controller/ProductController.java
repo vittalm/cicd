@@ -9,7 +9,6 @@ public class ProductController {
 
     @GetMapping("/all")
   public String  getAllProducts(){
-        //this will get all products
         return "All products";
     }
 }
